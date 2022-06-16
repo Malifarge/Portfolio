@@ -15,14 +15,14 @@ h2{
     margin-bottom: 16px;
 }
 
-/* tablette/pc */
+/* tablette */
 
 @media (min-width:768px){
     
     /* main */
 
     main{
-        margin-right: 60px;
+        margin: 0 60px;
     }
 
     /* texte */
@@ -33,6 +33,7 @@ h2{
 
     h2{
         margin-bottom: 40px;
+        font-size: 40px;
     }
     
     /* logo */
@@ -46,4 +47,12 @@ h2{
         width: 100%
     }
 
+}
+
+/* pc */
+
+@media (min-width:992px){
+    h2{
+        font-size: 50px;
+    }
 }

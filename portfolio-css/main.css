@@ -149,6 +149,13 @@ button{
         text-align: start;
     }
 
+    /* logo */
+
+    .grandlogo{
+        
+        width: 100%
+    }
+
     /* boutons */
 
     button{

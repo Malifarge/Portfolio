@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Krona+One&family=Roboto:wght@300;400&display=swap');
+
+    /* général */
+
+body{
+    background: #242121;
+    color: white;
+}
+
+/* main */
+
+main{
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-around;
+}
+
+.grand{
+    display: none;
+}
+
+/* nav */
+
+nav{
+    margin: 15px 0;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+nav a:hover{
+    font-size: 21px;
+    text-decoration: 2px #FC7987 underline;
+    color: white;
+}
+
+/* textes */
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/* logo */
+
+.logotel{
+    width: 20%;
+}
+
+.flexlog{
+    justify-content: end;
+    margin: 25px 0;
+}
+
+/* Footer */
+
+
+.btns{
+    width: 50%;
+    align-items: center;
+    position: relative;
+    
+}
+
+.btns img{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #FC7987;
+    border-radius: 50%;
+    padding: 5%;
+    background: #242121;
+    position: absolute;
+    left: 0;
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    border: 2px solid #FC7987;
+    border-radius: 50px;
+    background:#242121;
+    color: white;
+    padding-left: 20% ;
+
+}
+
+
+
+/* tablette/pc */
+
+@media (min-width:768px){
+    /* général */
+
+    .nav {
+        justify-content: end;
+        gap: 98px;
+        margin-right: 60px ;
+    }
+
+    .petit{
+        display: none;
+    }
+
+    .grand{
+        display: block;
+    }
+
+    .flex2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* texte */
+
+    h1{
+        font-size: 100px;
+        text-align: start;
+    }
+
+    h2{
+        font-size: 50px;
+        letter-spacing: 0.2em;
+        text-align: start;
+    }
+
+    /* boutons */
+
+    button{
+        width: 40%;
+        padding: 0;
+        text-align: center;
+        margin-right: 40%;
+    }
+
+}

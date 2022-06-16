@@ -1,0 +1,49 @@
+
+/* h1 */
+
+h1{
+    margin: 30px 0 16px;
+}
+
+span{
+    color: #FC7987 ;
+}
+
+/* h2 */
+
+h2{
+    margin-bottom: 16px;
+}
+
+/* tablette/pc */
+
+@media (min-width:768px){
+    
+    /* main */
+
+    main{
+        margin-right: 60px;
+    }
+
+    /* texte */
+
+    .txt{
+        flex-direction: column;
+    }
+
+    h2{
+        margin-bottom: 40px;
+    }
+    
+    /* logo */
+
+    div{
+        width: 50%;
+    }
+
+    .grandlogo{
+        
+        width: 100%
+    }
+
+}

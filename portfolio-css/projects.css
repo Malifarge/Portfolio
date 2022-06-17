@@ -5,6 +5,48 @@ header{
     position: fixed;
     left: 10%;
     right: 10%;
+    top: 0;
+}
+
+/* main */
+
+main{
+    margin: 100px 0;
+}
+
+main a{
+    width: 70%;
+    padding: 40px;
+    border: 2px dashed #FC7987;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+h2{
+    align-self: flex-start;
+    margin-left: 15%;
+}
+
+.center{
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* height: 100vh; */
+    gap: 50px;
+}
+
+.projets{
+    gap: 30px;
+}
+
+iframe {
+    width: 100%;
+    border: 2px solid white;
+    background: white;
+}
+
+.textprojets{
+    width: 100%;
 }
 
 /* footer */

@@ -1,0 +1,37 @@
+
+/* header */
+
+header{
+    position: fixed;
+    left: 10%;
+    right: 10%;
+}
+
+/* footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+footer img{
+    width: 20%;
+}
+
+
+/* tablette/pc */
+
+@media (min-width:768px){
+
+    header{
+        right: 0;
+    }
+
+    /* footer */
+
+    footer img{
+    width: 10%;
+}
+
+
+}

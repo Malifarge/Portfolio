@@ -118,7 +118,7 @@ button{
     background:#242121;
     color: white;
     padding-left: 20% ;
-
+    cursor: pointer;
 }
 
 
@@ -145,6 +145,7 @@ button{
     .flex2{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     /* texte */
@@ -167,10 +168,14 @@ button{
         width: 100%
     }
 
-    /* boutons */
+    /* Footer */
+
+    Footer{
+        gap: 20%;
+    }
 
     button{
-        width: 70%;
+        width: 100%;
         padding: 0;
         text-align: center;
         margin-right: 40%;

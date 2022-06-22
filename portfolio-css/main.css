@@ -87,6 +87,9 @@ p{
 
 /* Footer */
 
+footer{
+    margin-bottom: 30px;
+}
 
 .btns{
     width: 50%;

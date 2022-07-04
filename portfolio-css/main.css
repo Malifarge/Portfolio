@@ -168,12 +168,18 @@ button{
 
     .grandlogo{
         
-        width: 70%
+        position: absolute;
+        right: 0;
+        top: 10%;
+        width: 30%
     }
 
     /* Footer */
 
     Footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
         gap: 20%;
     }
 
